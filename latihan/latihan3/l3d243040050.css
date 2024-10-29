@@ -1,0 +1,45 @@
+body {
+  background-color: aqua;
+  font-family: georgia;
+  background-image: url(background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+h1 {
+  font-family: comic sans ms;
+  font-size: 60px;
+  color: darkblue;
+  text-align: center;
+}
+h4 {
+  text-align: center;
+  font-style: italic;
+}
+p {
+  text-align: justify;
+}
+.b {
+  color: red;
+  font-variant: small-caps;
+}
+#TF {
+  color: orange;
+  text-align: center;
+}
+.b:hover {
+  color: white;
+}
+.gh:hover {
+  background-color: blue;
+  color: white;
+}
+h3 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+.gh {
+  text-decoration: none;
+}

@@ -1,0 +1,31 @@
+body {
+  background-color: aqua;
+  font-family: georgia;
+}
+h1 {
+  font-family: comic sans ms;
+  font-size: 60px;
+  color: darkblue;
+}
+h4 {
+  text-align: right;
+  font-style: italic;
+}
+p {
+  text-align: justify;
+}
+.b {
+  color: white;
+  font-variant: small-caps;
+}
+#TF {
+  color: orange;
+  text-align: center;
+}
+.b:hover {
+  color: red;
+}
+.gh:hover {
+  background-color: blue;
+  color: white;
+}
