@@ -1,0 +1,124 @@
+body {
+  font: 16px/28px arial, sans-serif;
+  background-color: white;
+  background-image: url(img/more-leaves-on-green.png);
+  color: black;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: white;
+}
+
+.header {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.header .judul {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.header ul li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.header a {
+  text-decoration: none;
+  color: purple;
+  padding: 3px;
+}
+
+.header a:hover {
+  background-color: purple;
+  color: white;
+}
+
+.hero {
+  height: 250px;
+  background-image: url(img/kelly-sikkema-4_cK-T0_TD4-unsplash.jpg);
+  background-size: cover;
+  background-position: 0 -250px;
+  border-top: 5px solid blue;
+  border-bottom: 5px solid blue;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.content .penulis {
+  font-size: 11px;
+  margin-top: -5px;
+}
+
+.content .penulis a {
+  color: red;
+  text-decoration: none;
+}
+
+.content p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.content .nomorsatu {
+  font-weight: bold;
+}
+
+.content .nomordua {
+  font-weight: bold;
+}
+
+.content .nomortiga {
+  font-weight: bold;
+}
+
+.content .nomorempat {
+  font-weight: bold;
+}
+
+.content .nomorlima {
+  font-weight: bold;
+}
+
+.content .nomorenam {
+  font-weight: bold;
+}
+
+.content .nomortujuh {
+  font-weight: bold;
+}
+
+.content .nomordelapan {
+  font-weight: bold;
+}
+
+.content .nomorsembilan {
+  font-weight: bold;
+}
+
+.content .sumber {
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #333;
+  padding: 10px;
+}
+
+.footer .copy {
+  color: #eaeaea;
+  text-align: center;
+  font-size: 12px;
+}
