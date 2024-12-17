@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bang Store</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="T7.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="hero">
+          <h2 class="heading">Bang Phone Shop</h2>
+          <p class="sub-heading">Handphone VIVO</p>
+        </div>
+        <div class="features feature-1">
+          <h4 class="price">IDR 5.299.000</h4>
+          <p class="item">VIVO V40 Lite 5G(12GB+512GB)</p>
+        </div>
+        <div class="features feature-2">
+          <h4 class="price">IDR 4.999.000</h4>
+          <p class="item">VIVO V30E(8GB+256GB)</p>
+        </div>
+      </header>
+
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>Bang Phone Shop</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="">Home</a></li>
+          <li><a href="">Product</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">More</a></li>
+        </ul>
+      </nav>
+
+      <section class="services">
+        <div class="service">
+          <div class="icon"></div>
+          <h3>Customer Services</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea sed
+            cupiditate eveniet, nam delectus debitis?
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon"></div>
+          <h3>New Product</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea sed
+            cupiditate eveniet, nam delectus debitis?
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon"></div>
+          <h3>Official Store</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea sed
+            cupiditate eveniet, nam delectus debitis?
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon"></div>
+          <h3>Services Center</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea sed
+            cupiditate eveniet, nam delectus debitis?
+          </p>
+        </div>
+      </section>
+
+    
+      </section>
+    </div>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle input");
+      const nav = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
